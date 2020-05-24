@@ -19,7 +19,7 @@ var gravity = 0.0;
 function setup() {
  cnv=createCanvas(400, 400);
  cnv.position(100,100)
-	loadImage("assets/3.jpg", function(img) {
+	loadImage("assets/yuhanwu.jpg", function(img) {
 		img.loadPixels();
 		for (var x = 0; x < imgWidth; x++) {
 			for (var y = 0; y < imgHeight; y++) {
