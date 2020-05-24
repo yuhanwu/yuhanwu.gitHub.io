@@ -1,16 +1,10 @@
-// this program is written in P5.js by Wu Shengzhi(www.wushengzhi.xyz)
-// I load every pixel of an image and map image data into 3 dimensional vector, inclusing X position, Y position and pixel brightness
-// the brightness is demonstrated by the ellipse size, the darker, the bigger
-// then every pixel is added into a particle system and then applies 2D Spring to its orginal position,
-// when mouse is pressed, an attraction is applied 
-// since in the first test, I found preload() does not work when uploaded into server,
-// so I use a call back function in setup(), and a stupid method to ansure the image pixel is all loaded before draw() function is using
-// the method is check whether s[49] the last number in this array is null or not  ^_^ that's the only simple way I can think of, hahah
+
+
 
 var cnv;
 var img;
-var imgHeight= w = 100;
-var imgWidth = h = 100;
+var imgHeight= w = 50;
+var imgWidth = h = 50;
 var pic = [];
 var aa = 0;
 
