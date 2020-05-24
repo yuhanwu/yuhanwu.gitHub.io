@@ -43,7 +43,7 @@ function setup() {
 				s[i][j] = new Spring2D(x2, y2, mass, gravity, b); // apply into Spring 2D
 			}
 		}
-	}); // end with the call back
+	}); // end with the call bac
 }
 
 function draw() {
