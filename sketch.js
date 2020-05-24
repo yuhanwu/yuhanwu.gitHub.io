@@ -13,7 +13,7 @@ var mass = 60.0;//30
 var gravity = 0.0;
 
 // function preload() {
-// 	// img = loadImage("assets/2.jpg");  // Load the image
+// 	// img = loadImage("assets/yuhanwu.jpg");  // Load the image
 // }
 
 function setup() {
