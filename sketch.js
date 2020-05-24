@@ -9,7 +9,7 @@ var pic = [];
 var aa = 0;
 
 var s = [];
-var mass = 30.0;
+var mass = 60.0;//30
 var gravity = 0.0;
 
 // function preload() {
